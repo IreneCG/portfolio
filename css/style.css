@@ -82,3 +82,19 @@ li{
 
 }
 
+#efecto{
+   font-family: sans;
+   font-size: 21px;
+   background-image: url("../img/libreta2.png");
+   width:322px;
+   height:419px;
+}
+.text{
+  border-top:1px solid #ccc;
+  border-bottom:1px solid #ccc;
+  height:50px;
+  padding-top:20px;
+  box-sizing: border-box;
+  color: #1e2439;
+  
+}

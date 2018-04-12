@@ -38,7 +38,7 @@
         <h3><a href="#">Irene Caro</a></h3>
     </div>
     <div class="menu">
-        <a href="#">LinkedIN</a>
+        <a href="#">Linkedin</a>
         <a href="#">Twitter</a>
         <a href="#">GutHub</a>
     </div>
@@ -50,13 +50,51 @@
 <div class="container">
   <div class="row">
     <div class="principal">
-      <h2>front/designer</h2>
+
+      <div id="efecto">
+        <h2>front/designer</h2>
+      </div>
+      
     </div>
   </div>
 </div>
 </div>
 
+<!-- Segunda parte -->
+
+<div class="text">
+<div class="container">
+  <h5>Open source || Side projects</h5>
+</div>
+</div>
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
+
+
+<script type="text/javascript">
+
+          var mensaje = "Me llamo Irene y #soy front/designer.#Soy de Sevilla.", pausa = 170; 
+          var i,m,t;
+
+          function inicio(){ 
+           i = 0;
+           m = mensaje.split(''); 
+           t = setInterval( msj, pausa); 
+
+         } 
+          function msj(){ 
+          if(i >= m.length-1) clearInterval(t); 
+            if(m[i]=='#'){
+                document.getElementById('efecto').innerHTML+='<br>';
+
+            }
+          else{
+            document.getElementById('efecto').innerHTML+=m[i];
+            }
+            i++; 
+          }
+
+        window.onload = inicio;  
+      </script>
 </html>
