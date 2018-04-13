@@ -1,16 +1,16 @@
 .franja{
-      height:100px;
+      height:70px;
       border-bottom:1px solid #eee;
-      -webkit-box-shadow: 7px 7px 5px 0px rgba(204, 204, 204, 0.75);
+      /*-webkit-box-shadow: 7px 7px 5px 0px rgba(204, 204, 204, 0.75);
       -moz-box-shadow:    7px 7px 5px 0px rgba(204, 204, 204, 0.75);
-      box-shadow:         7px 7px 5px 0px rgba(204, 204, 204, 0.75);
+      box-shadow:         7px 7px 5px 0px rgba(204, 204, 204, 0.75);*/
       box-sizing: border-box;
-      padding-top:25px;
-      padding-bottom:25px;
+      padding-top:12px;
+      padding-bottom:12px;
       position:fixed;
       z-index: 100;
       width: 100%;
-      background: rgba(0,0,0,0.6);
+      background: #E6E6E6;
 
     }
 .menu{
@@ -26,7 +26,7 @@
 .menu a{
   text-decoration:none;
   margin-right: 1rem;
-  color: #BDBDBD;
+  color: #585858;
 
 
 }
@@ -57,8 +57,9 @@ li{
 }
 
 .logo a{
-  color:#E6E6E6;
+  color:#585858;
   text-decoration: none;
+  font-family: 'Nanum Gothic', sans-serif;
 }
 
 .logo a:hover{
@@ -67,15 +68,16 @@ li{
 }
 
 .principal{
-  height:700px;
+  height:500px;
   text-align:center;
-  padding-top:300px;
-
+  padding-top:150px;
+padding-left:350px;
 
 }
 
 .fondo{
-  background-image: url("../img/leaf.jpg");
+  background-image: url("../img/123.jpg");
+  /*background:#F2F2F2;*/
   background-repeat: no-repeat;
   background-size: cover;
   clear:both;
@@ -85,16 +87,15 @@ li{
 #efecto{
    font-family: sans;
    font-size: 21px;
-   background-image: url("../img/libreta2.png");
-   width:322px;
-   height:419px;
+   background-image: url("../img/cuaderno.png");
+   background-repeat: no-repeat;
+  background-size: cover;
+   width:320px;
+   height:350px;
+   padding-top:100px;
+   font-family: 'Stylish', sans-serif;
+-webkit-box-shadow: -83px 13px 65px -61px rgba(0,0,0,0.26);
+-moz-box-shadow: -83px 13px 65px -61px rgba(0,0,0,0.26);
+box-shadow: -83px 13px 65px -61px rgba(0,0,0,0.26);
 }
-.text{
-  border-top:1px solid #ccc;
-  border-bottom:1px solid #ccc;
-  height:50px;
-  padding-top:20px;
-  box-sizing: border-box;
-  color: #1e2439;
-  
-}
+
