@@ -32,7 +32,7 @@
 }
 
 .menu a:hover{
-  color: #FAFAFA; 
+  text-decoration:underline;
 
 }
 
@@ -99,3 +99,98 @@ padding-left:350px;
 box-shadow: -83px 13px 65px -61px rgba(0,0,0,0.26);
 }
 
+.text{
+  border-top:1px solid #ccc;
+  border-bottom:1px solid #ccc;
+  height:80px;
+  padding-top:20px;
+  box-sizing: border-box;
+  color: #1e2439; 
+}
+
+.fila-1{
+
+  height:500px;
+  margin:0 auto;
+}
+
+.uno{
+  box-sizing:border-box;
+  width:45%!important;
+  font-family: 'Nanum Gothic', sans-serif;
+  color: #271764;
+  padding:250px;
+  text-align:center;
+
+}
+
+
+.dos{
+  background:#e1dce3;
+  box-sizing:border-box;
+  width:55%!important;
+  text-align:left;
+  padding-top:150px;
+  padding-left:150px;
+}
+
+.boton{
+  display:block;
+}
+.boton:hover{
+  background:#CEECF5;
+}
+.fila-2{
+
+  height:500px;
+  margin:0 auto;
+  background: rgba(250,168,246,1);
+  background: -moz-linear-gradient(left, rgba(250,168,246,1) 0%, rgba(224,250,168,1) 0%, rgba(134,208,253,0.72) 51%, rgba(127,209,254,0.55) 81%, rgba(122,209,255,0.55) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(250,168,246,1)), color-stop(0%, rgba(224,250,168,1)), color-stop(51%, rgba(134,208,253,0.72)), color-stop(81%, rgba(127,209,254,0.55)), color-stop(100%, rgba(122,209,255,0.55)));
+  background: -webkit-linear-gradient(left, rgba(250,168,246,1) 0%, rgba(224,250,168,1) 0%, rgba(134,208,253,0.72) 51%, rgba(127,209,254,0.55) 81%, rgba(122,209,255,0.55) 100%);
+  background: -o-linear-gradient(left, rgba(250,168,246,1) 0%, rgba(224,250,168,1) 0%, rgba(134,208,253,0.72) 51%, rgba(127,209,254,0.55) 81%, rgba(122,209,255,0.55) 100%);
+  background: -ms-linear-gradient(left, rgba(250,168,246,1) 0%, rgba(224,250,168,1) 0%, rgba(134,208,253,0.72) 51%, rgba(127,209,254,0.55) 81%, rgba(122,209,255,0.55) 100%);
+  background: linear-gradient(to right, rgba(250,168,246,1) 0%, rgba(224,250,168,1) 0%, rgba(134,208,253,0.72) 51%, rgba(127,209,254,0.55) 81%, rgba(122,209,255,0.55) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#faa8f6', endColorstr='#7ad1ff', GradientType=1 );
+  padding-top:150px;
+  padding-left:250px;
+  box-sizing:border-box;
+}
+
+h2{
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+.fila-2 button{
+  width:300px;
+  height:60px;
+
+}
+
+.fila-2 button:hover{
+  background:#CEECF5;
+}
+
+.fila-3{
+height:500px;
+margin:0 auto;
+background:#e5edb7;
+box-sizing:border-box;
+padding-top:100px;
+}
+
+.fila-3a{
+
+  box-sizing:border-box;
+  height:300px;
+  width:40%!important;
+
+}
+
+.lista{
+  list-style-type: disc!important;
+}
+.lista li{
+  display:block;
+  color:#585858;
+}
